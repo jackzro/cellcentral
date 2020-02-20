@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: yellowgreen;
+    height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid white
+}
+
+ul li select{
+    background-color: yellowgreen;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    
+    border: 1px solid white
+
+}
+
+
+body{
+    background:white;
+    font-family: sans-serif; 
+}
+
+.form{
+    width: 500px;
+    background: rgba(0,0,0,0.8);
+    margin: 200px auto;
+    padding: 50px 0;
+    color:#fff;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.input {
+    margin: 31px auto;
+    width:80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.input input  {
+    width: 90%;
+    border:none;
+    outline:none;
+    background: transparent;
+    color:#fff;
+}
+
+::placeholder{
+    color: #ccc;
+      
+}
+.fa{
+    margin: 2px;
+}
+
+.eye{
+    position: absolute;
+}
+
+#eye1{
+    display: none;
+}
+
+.loginbutton {
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+
+}
+
+.logo img{
+     float: left;
+     width: 200px;
+     height: auto;
+     margin-top: -40px;
+}
+
+.main{
+max-width: 1200px;
+margin: auto;
+}
+header{
+    overflow: hidden;
+}
+
+footer{
+    background: yellowgreen;
+    height:100px;
+    text-align: center;
+    padding-top: 50px;
+}
+footer a{
+    margin: 20px;
+    text-align: justify;
+    font-size: 16px;
+    color:white;
+}
+
+.About{
+    margin:2px;
+}

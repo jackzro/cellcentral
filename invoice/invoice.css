@@ -1,0 +1,37 @@
+body {
+ 
+  font-family: Rubik, Arial;
+  background-image: url(ip111.jpg);
+}
+
+form {
+  text-align: center;
+  line-height: 30px;
+  height: 80%;
+  overflow: scroll;
+}
+
+form hr {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+#overlay {
+    width: 90%;
+    margin: 3% auto;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.966);
+    background-image: url(paid.jpg);
+    border-radius: 30px;
+}
+
+#logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+

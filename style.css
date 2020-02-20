@@ -1,0 +1,225 @@
+body{
+  margin: 0;
+  /* background-image: url("./img/background.jpg"); */
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 700px;
+  background-image: url("./img/main-background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul,li{
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 10, 0.5)
+}
+
+
+/* NAVBAR SECTION */
+.container{
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.nav-container{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nav-brand{
+  float:left;
+  font-family: "Righteous", serif;
+  font-weight: 400;
+}
+.nav-brand h3{
+  margin: 20px;
+  color: #636b68;
+}
+
+#navbar-menu{
+  background-color: yellowgreen;
+  position: fixed;
+  width: 100%;
+}
+
+#navbar-menu img{
+  float: left;
+  width: 96px;
+  height: 64px;
+  overflow: hidden;
+}
+
+#navbar-menu h3, #navbar-menu form{
+  display: inline-block;
+}
+
+#navbar-menu ul{
+  list-style: none;
+}
+
+#navbar-menu li{
+  float: right;
+  padding: 12px;
+  margin: 7px 2px;
+}
+
+#navbar-menu a{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#navbar-menu a{
+  display: block;
+  text-decoration: none;
+}
+
+#login{
+  border: 1px solid white;
+  border-radius: 5%;
+}
+#sign{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5%;
+}
+#sign a{
+  color: #636b68;
+}
+
+
+/* Product Brand Section */
+#product-brand{
+  color: whitesmoke;
+  height: 350px;
+}
+#product-brand a{
+  display: block;
+}
+#product-brand h1{
+  text-align: center;
+}
+.brand{
+  width: 23%;
+  padding-bottom: 30%;
+  float: left;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 1%;
+  border-radius: 5%;
+}
+.brand#apple{
+  background-image: url("./img/brand/apple.png");
+  background-color: #444444;
+}
+.brand#asus{
+  background-image: url("./img/brand/asus.png");
+  background-color: #444444;
+}
+.brand#samsung{
+  background-image: url("./img/brand/samsung.png");
+  background-color: #444444;
+}
+.brand#xiaomi{
+  background-image: url("./img/brand/xiaomi.png");
+  background-color: #FF6700;
+}
+
+
+/* EXAMPLE PRODUCT SECTION */
+#example-poduct{
+  color: #aabbde;
+  height: 800px
+}
+
+#example-product h1{
+  text-align: center;
+  color: white;
+}
+
+.product{
+  width: 17%;
+  margin: 1.5%;
+  padding-bottom: 2%;
+  background-color: hsla(270, 1%, 42%, 0.2);
+  float: left;
+}
+.product figure{
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ #iphone-11{
+  background-image: url("./img/brand/iphone/iphone-11-pro-max-midnight-green_3.png");
+ }
+
+.contain-specs{
+  padding: 20px;
+}
+
+.specs{
+  margin: 15px 10px;
+  padding: 0;
+}
+.contain-specs p{
+  color: whitesmoke;
+}
+.contain-specs h3{
+  font-size: 1.8em;
+  color: #dfdaca
+}
+.specs li{
+  margin: 10px 0;
+  border-bottom: 1px solid #939b98;
+  font-size: 0.85em;
+  color: #aabbde;
+}
+
+.container-2{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+
+/* FOOTER SECTION */
+
+footer{
+  margin-top: 50px;
+  height: 10%;
+  width: 100%;
+  background-color: yellowgreen;
+  float: left;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+footer a{
+  margin: 20px;
+  color: #222222;
+}
+
+.about{
+  margin: 20px;
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+* {
+    font-family: "Helvetica", sans-serif;
+    background: whitesmoke;
+}
+header {
+    text-align: center;
+}
+h1 {
+    border-bottom: 3px solid black;
+    padding: 10px;
+      
+
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section {
+    flex: 30%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 1px;
+}
+img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+blockquote {
+    font-style: italic;
+}

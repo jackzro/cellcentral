@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="invoice.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik"> -->
+    <title>Invoice</title>
+  </head>
+
+  <body>
+    <section id="overlay">
+      <img src="logo.jpg" id="logo"><hr>
+
+      <form action="submission.html" method="POST">
+		<h1>INVOICE</h1>
+        
+        <section class="nomor-invoice"> 
+          <label for="nomorinvoice">Invoice Number</label> <br>
+    			<input type="text" value='CCL/J0418/3276'>
+        </section> <br>
+        
+        <section class="tanggal">
+          <label for="tanggal">Purchase Date</label> <br>
+          <input type="text"  id="tanggal" value='20-02-2020'>
+        </section> <br>
+        
+        <section class="toppings">
+          <span> Payment Method </span>
+          <br>
+          <input type="text"  id="metode" value='Mobile Banking'>
+        </section> <br>
+        
+        <section class="barcode">
+            <label for="barcode">Barcode</label> <br>
+            <input type="text"  id="barcode" value='171212643116'>
+        </section> <br>
+
+        <section class="produk">
+          <span>Product Sold</span>
+          <br>
+          <input type="text"  id="produk" value='Iphone11Pro/128GB'>
+        </section> <br>
+
+        <section class="warna">
+            <span>Color</span>
+            <br>
+            <input type="text"  id="warna" value='Green'>
+          </section> <br>
+        
+       
+        <section class="jumlah">
+          <label for="jumlah">Quantity</label> <br>
+          <input type="text"  id="jumlah" value='1 Unit'>
+        </section> <br>
+        
+        
+        <section class="berat">
+          <label for="berat">Weight</label> <br>
+          <input type="text"  id="berat" value='1 kg'>
+        </section> <br>
+        
+        <section class="harga-barang">
+          <label for="hargaB">Product Price</label>
+          <br>
+          <input type="text"  id="hargaB" value='Rp8.270.363,00'>
+        </section><br>
+        
+        <hr>
+        <section class="kurir">
+            <label for="kurir">Courier & Package</label> <br>
+            <input type="text"  id="kurir" value='JNE/Reguler'>
+        </section> <br>
+      
+        <section class="harga-kurir">
+            <label for="hargaK">Courier Fee</label> <br>
+            <input type="text"  id="hargaK" value='Rp10.000,00'>
+        </section><br>
+        
+        <hr>
+        
+        <section class="voucher">
+            <label for="voucher">Cell Central Discount Voucher</label>
+            <br>
+            <input type="text"  id="voucher" value='-'>
+        </section><br>
+
+        <hr>
+        <section class="ppn">
+            <label for="ppn">Tax </label>
+            <br>
+            <input type="text"  id="ppn" value='Rp0,00'>
+        </section> <br>
+
+        <section class="total">
+            <label for="total">Subtotal </label>
+            <br>
+            <input type="text"  id="total" value='Rp8.280.363,,00'>
+        </section> <br>
+
+        <section class="home">
+          <input type="submit" value="Kembali">
+        </section> 
+
+        <hr>
+        <section class="rating">
+            <label>Bagaimana Produk kami?</label>
+            <br>
+            <span>Kecewa</span>
+            <input type="range" name="rating" id="rating" value="3" min="1" max="5">
+            <span>Sempurna!</span>
+          </section>
+      </form>
+    </section>
+
+    
+  </body>
+</html>
